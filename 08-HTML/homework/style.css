@@ -1,22 +1,40 @@
-h1 {
-    color: blue;
-}
+		body{
+			background-image: url(https://image.freepik.com/foto-gratis/ingredientes-pasta-italiana-sobre-fondo-negro_23-2147926112.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;	
+		}
 
-img{
-    height: 240px;
-    width: 400px;
-}
+		h1{
+			color: red;
+		}
+		
+		img{
+			width: 400px;
+			height: 250px;
+		}
+		
+		#thirdDiv{
+			height: 600px;
+			width: 500px;
+			background-color: aquamarine;
+			padding: 50px;
+			border: 5px double blue;
+		}
 
-#thirdDiv{
-    padding: 50px;
-    height: 500px;
-    width: 600px;
-    background-color: lightblue;
-    border: 10px solid black;
+		#spanId{
+			color: white;
+			font-size: 18px;
+			margin: 50px;
+			display: block;
+		}	
+		body{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
 
-}
-
-#spanId{
-    margin: 50px;
-    font-size: 18px;
-}
+		.divClass{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
