@@ -1,0 +1,18 @@
+body{
+	background-color: gainsboro;
+}
+.header{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#CV{
+	font-size: 60px;
+}
+.listItems{
+	font-size: 20px;
+	line-height: 1.5em;
+}
